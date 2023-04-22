@@ -49,14 +49,18 @@ $mainWhite: #F8F9FA;
              -20px -20px 84px #ffffff;
 }
 
+#wp-body {
+    background: #3b3b3b;
+}
+
 .post-block {
     display: flex;
     flex-direction: column;
     margin-bottom: 37px;
     padding: 57px 37px 57px 37px;
     border-radius: 17px;
-    background: #f5f5f5;
-    box-shadow:  20px 20px 84px #dadada,
+    background: linear-gradient(145deg, #ffffff, #dddddd);
+    box-shadow:  20px 20px 84px #b3b3b3,
              -20px -20px 84px #ffffff;
 
              p {
@@ -70,6 +74,12 @@ $mainWhite: #F8F9FA;
                 font-family: 'Poppins', sans-serif;
                 word-wrap: break-word;
                 white-space: pre-wrap;
+             }
+
+             .date {
+                margin-top: 37px;
+                color: #979797;
+                font-size: 9px;
              }
 }
 

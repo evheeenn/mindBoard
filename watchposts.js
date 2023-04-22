@@ -2,7 +2,7 @@ let renderPosts = (data) => {
     $.each(data, function () {  
 
         let postBlock = $('<div>');
-        postBlock.addClass('post-block container col-xs-12 col-9 mx-auto');
+        postBlock.addClass('post-block container col-xs-12 col-sm-7 col-md-7 col-lg-7 mx-auto');
         $('.postcolumn').prepend(postBlock);
 
         let name = $('<p>');
