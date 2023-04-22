@@ -1,10 +1,10 @@
 $('#post').on('submit', function(e) {
   e.preventDefault();
-
+  let time = new Date()
   const newPost = {};
   newPost.name = $('#name').val();
   newPost.text = $('#text').val();
-  newPost.createdAt = new Date()
+  newPost.createdAt = time.getFullYear() + '-' + (time.getMonth()+1) + '-' + time.getDate()
 
   this.reset();
 
@@ -14,4 +14,3 @@ $('#post').on('submit', function(e) {
     body: JSON.stringify(newPost)
   });
 });
-
