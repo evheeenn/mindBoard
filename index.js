@@ -4,6 +4,7 @@ $('#post').on('submit', function(e) {
   const newPost = {};
   newPost.name = $('#name').val();
   newPost.text = $('#text').val();
+  newPost.createdAt = new Date()
 
   this.reset();
 

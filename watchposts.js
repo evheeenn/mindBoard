@@ -1,6 +1,6 @@
 let renderPosts = (data) => {
     $.each(data, function () {  
-        let time = new Date()
+
         let postBlock = $('<div>');
         postBlock.addClass('post-block container col-xs-12 col-9 mx-auto');
         $('.postcolumn').prepend(postBlock);
@@ -17,7 +17,7 @@ let renderPosts = (data) => {
         let date = $('<p>');
         postBlock.append(date);
         date.addClass('date')
-        date.text('Created at: ' + time);
+        date.text('Created at: ' + this.createdAt);
     });
 };
 
