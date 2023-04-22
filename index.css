@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.landing {
+  height: 100vh;
+}
+.landing a {
+  width: 177px;
+  margin-top: 37px;
+}
+
+.landing-headline {
+  margin-top: 157px;
+  color: #02579B;
+  font-size: 77px;
+  font-family: "Poppins", sans-serif;
+}
+
+.aboutapp {
+  height: 70vh;
+}
+
+.aboutapp h1 {
+  color: #02579B;
+  font-family: "Poppins", sans-serif;
+  font-size: 37px;
+}
+
+.aboutapp p {
+  margin-top: 37px;
+  color: black;
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+}
+
+#post {
+  padding: 57px 73px 57px 73px;
+  margin-top: 73px;
+  border-radius: 17px;
+  border-radius: 27px;
+  background: #f5f5f5;
+  -webkit-box-shadow: 20px 20px 84px #e9e9e9, -20px -20px 84px #ffffff;
+          box-shadow: 20px 20px 84px #e9e9e9, -20px -20px 84px #ffffff;
+}
+
+.post-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 37px;
+  padding: 57px 37px 57px 37px;
+  border-radius: 17px;
+  background: #f5f5f5;
+  -webkit-box-shadow: 20px 20px 84px #dadada, -20px -20px 84px #ffffff;
+          box-shadow: 20px 20px 84px #dadada, -20px -20px 84px #ffffff;
+}
+.post-block p {
+  color: rgb(75, 75, 75);
+  font-family: "Poppins", sans-serif;
+}
+.post-block i {
+  width: 70%;
+  color: #979797;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.post-block .date {
+  margin-top: 37px;
+  color: #979797;
+  font-size: 9px;
+}
+
+.postsheadline h1 {
+  margin-top: 37px;
+  margin-bottom: 37px;
+  margin-left: 137px;
+  color: #02579B;
+  font-family: "Poppins", sans-serif;
+  font-size: 37px;
+}
