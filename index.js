@@ -3,6 +3,7 @@ class Post {
     this.name = name;
     this.text = text;
     this.like = like;
+    this.comment = []
   }
 }
 

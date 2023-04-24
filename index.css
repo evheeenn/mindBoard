@@ -65,6 +65,11 @@ body {
   -webkit-box-shadow: 20px 20px 84px #b3b3b3, -20px -20px 84px #ffffff;
   box-shadow: 20px 20px 84px #b3b3b3, -20px -20px 84px #ffffff;
 }
+
+.like-block {
+  margin-top: -27px;
+  margin-left: 92%;
+}
 .post-block p {
   color: rgb(75, 75, 75);
   font-family: "Poppins", sans-serif;
@@ -99,7 +104,7 @@ body {
 .post-button {
   width: 73px;
   height: 73px;
-  background: url('img/post-button.png');
+  background: url("img/post-button.png");
   background-size: 107%;
   background-repeat: no-repeat;
   background-position: center;
@@ -108,4 +113,64 @@ body {
   bottom: 17px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.comment-button {
+  margin-left: 89%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.comment-form {
+  display: none;
+}
+
+.comment-form legend {
+  color: #02579b;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.comment-block {
+  margin-top: 37px;
+  display: none;
+}
+
+.comment-body {
+  margin-bottom: 37px;
+}
+
+.comment-body i {
+  color: #979797;
+  width: 70%;
+  color: #979797;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+
+.comment-visibility-button {
+  cursor: pointer;
+}
+
+.comment-visibility-button h1{
+  color: #828282;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  margin-top: 27px;
+}
+
+.comment-body {
+  padding: 27px 37px 27px 37px;
+  border-radius: 17px;
+  background: linear-gradient(145deg, #ffffff, #dddddd);
+  -webkit-box-shadow: 20px 20px 84px #b3b3b3, -20px -20px 84px #ffffff;
+  box-shadow: 20px 20px 84px #b3b3b3, -20px -20px 84px #ffffff;
+}
+
+.comment-date {
+  margin-top: 17px;
+  color: #828282;
+  font-size: 9px;
 }
