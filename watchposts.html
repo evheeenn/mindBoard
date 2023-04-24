@@ -52,10 +52,7 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="posts.html">Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Watch posts</a>
+              <a class="nav-link active" href="#">Posts</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -86,6 +83,49 @@
       <h1>Posts.</h1>
     </div>
     <div class="container col-xs-12 mx-auto postcolumn"></div>
+    <div class="post-button" data-bs-toggle="modal" data-bs-target="#modal"></div>
+    <div class="modal modal-lg" tabindex="-1" id="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Post</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body col-12">
+            <form id="post" class="col-sm-3 col-md-9 col-lg-9 mx-auto">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  required
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  This name will be used only once when publishing this post.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="text" class="form-label">Post text</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="text"
+                  required
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  Type everything you want to share.
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Post</button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="watchposts.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
